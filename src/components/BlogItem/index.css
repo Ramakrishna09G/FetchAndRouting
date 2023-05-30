@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.blog-item-card {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8e8e8e;
+  padding: 18px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.item-img {
+  height: 220px;
+  width: 380px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+.topic-title-and-author-card-container {
+  display: flex;
+  flex-direction: column;
+}
+.topic {
+  color: #8e8e8e;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.title {
+  color: #000000;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.author-card-container {
+  display: flex;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 28px;
+}
+.author-name {
+  color: #8e8e8e;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 8px;
+}
+.item-link {
+  text-decoration: none;
+}
